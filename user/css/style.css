@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #181717;
+    padding: 0 0 0 40px;
+}
+header ul{
+    list-style-type: none;
+}
+header ul li{
+    display: inline-block;
+    padding: 5px 10px;
+}
+header ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight:200;
+}
+#home a{
+    color: rgb(95, 255, 47);
+    font-weight: 400;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#out{
+    float: right; 
+}
+#out a:hover{
+    color: rgb(95, 255, 47);
+}
+header ul li a:hover{
+    color: rgb(95, 255, 47);
+}
+.second-header{
+    display: inline-block;
+    width: 100%;
+    border: 1px solid rgba(18, 66, 199, 0);
+    background-color: silver;
+}
+.second-header{
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+}
+#UN{
+    padding: 5px 0;
+    width: 100%;
+    float: right;
+    text-align: center;
+}
+/* ADMIN */
+.section{
+    height: 100vh;
+    margin-top: 70px;
+}
+.main{
+    float: left;
+    width: 70%;
+    border: 1px solid rgba(255, 0, 0, 0);
+}
+.main table{
+    border-collapse: collapse;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.right{
+    border: 1px solid rgba(0, 0, 0, 0);
+    display: flow-root;
+}
+/* CREATE ACC   */
+.mainC{
+    border: 1px solid rgba(255, 0, 0, 0);
+}
+.mainC table{
+    border-collapse: collapse;
+    border-color: rgba(0, 0, 0, 0);
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+}
+#left{
+    padding: 8px 25px 8px 3px;
+    font-size: 18px;
+    text-align: left;
+}
+#right{
+    width: 200px;
+}
+#btn{
+    font-size: 3vh;
+    font-weight: 400;
+    cursor: pointer;
+}
+.mainC h3{
+    font-size: 3vw;
+    margin: 50px 0 50px 0;
+    font-weight: 300;
+    text-align: center;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.mainC table input{
+    height: 40px;
+    width: 100%;
+    outline: none;
+}
+.mainC table input::placeholder{
+    font-size: 18px;
+    padding: 8px 15px 8px 3px;
+    color: rgba(0, 0, 0, 0.644);
+}
+/* CHECK ACC */
+.check{
+    padding: 50px 0;
+}
+.check table{
+    margin: 0 0 0 40px;
+}
+.tbl{
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    margin: 0 0 0 40px;
+
+}
+.tbl td,th{
+    padding: 5px 15px;
+}
+#acc-input{
+    padding: 0;
+}
+#acc-input input{
+    height: 40px;
+}
+#acc-input input::placeholder{
+    font-size: 17px;
+    color: rgba(212, 0, 0, 0.473);
+    padding-left: 5px;
+}
+#btn-search{
+    height: 40px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+/* USER STYLE */
+.body{
+    border: 1px solid red;
+    display: inline-block;
+    width: 100%;
+    height: 80vh;
+}
+.body section{
+    border: 1px solid rgb(24, 23, 23);
+    float: left;
+    height: 100%;
+}
+#lefts{
+    width: 50%;
+    background-color: #c4c2c271;
+}
+#lefts table{
+    border-collapse: collapse;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+#lefts table td:first-child{
+    padding: 10px;
+    width: 200px;
+}
+#lefts table td:last-child{
+    padding: 10px;
+    width: 300px;
+}
+#rights{
+    width: 50%;
+    background-color: #b93030f1;
+    display: flow-root;
+    padding-left: 50PX;
+}
+#rights table{
+    margin: 20px 0 10px 0;
+}
+#rights table td{
+    font-size: 20px;
+    font-weight: 300;
+}
+#topic{
+    font-size: 3vw;
+}
+#btn{
+    cursor: pointer;
+    font-size: 17px;
+    padding: 2px;
+    margin-top: 20px;
+}
