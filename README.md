@@ -2,8 +2,7 @@
 
 Welcome to the Bank Management System, a simple PHP project for managing user transactions and providing administrative access to oversee all account activities.
 
-![Bank Management System Preview](![Capture-1](https://github.com/pathuGIT/my-bank/assets/92371888/a63dcd55-40df-43ee-bbb6-a2ab7dc35562)
-)
+![Bank Management System Preview] ![Capture-1](https://github.com/pathuGIT/my-bank/assets/92371888/a63dcd55-40df-43ee-bbb6-a2ab7dc35562)
 
 ## Features
 
@@ -17,10 +16,10 @@ Welcome to the Bank Management System, a simple PHP project for managing user tr
 
 ## Screenshots
 
-![User Dashboard](![Capture-2](https://github.com/pathuGIT/my-bank/assets/92371888/5bc31f38-0d48-4020-b857-ba41d8eaa0b4)
-)
-![Admin Dashboard](![Capture](https://github.com/pathuGIT/my-bank/assets/92371888/b1cda57f-9309-44d7-9a4c-b87fdc40fd2e)
-)
+![User Dashboard]![Capture-2](https://github.com/pathuGIT/my-bank/assets/92371888/5bc31f38-0d48-4020-b857-ba41d8eaa0b4)
+
+![Admin Dashboard]![Capture](https://github.com/pathuGIT/my-bank/assets/92371888/b1cda57f-9309-44d7-9a4c-b87fdc40fd2e)
+
 
 ## Live Demo
 
